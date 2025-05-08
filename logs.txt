@@ -1,0 +1,73 @@
+
+> travelit-web@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.2.2
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.14:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1665ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1588ms (735 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/dcb5028d80b4b9db.webpack.hot-update.json 404 in 1971ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1864ms (1097 modules)
+ ✓ Compiled in 252ms (1083 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /login 200 in 2090ms
+ GET /_next/static/webpack/dcb5028d80b4b9db.webpack.hot-update.json 404 in 1785ms
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/login'
+}
+ ✓ Compiled /_error in 656ms (1126 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /login 200 in 839ms
+ GET /_next/static/webpack/dcb5028d80b4b9db.webpack.hot-update.json 404 in 560ms
+ GET /login 200 in 3498ms
+ ✓ Compiled /favicon.ico in 310ms (513 modules)
+ GET /favicon.ico 200 in 636ms
+ ✓ Compiled /api/auth/[...nextauth] in 420ms (537 modules)
+ GET /api/auth/providers 304 in 628ms
+ GET /api/auth/csrf 200 in 5ms
+ POST /api/auth/callback/credentials 200 in 3ms
+ ○ Compiling / ...
+ ✓ Compiled / in 514ms (1195 modules)
+ GET / 200 in 726ms
+ GET /api/auth/session 304 in 27ms
+ GET /login 200 in 322ms
+ GET /login 200 in 239ms
+ GET /login 200 in 226ms
+ ✓ Compiled in 341ms (645 modules)
+ GET /api/auth/session 304 in 10ms
+ GET /favicon.ico 200 in 249ms
+ GET /api/auth/session 304 in 3ms
+ GET /favicon.ico 200 in 226ms
+ ✓ Compiled in 270ms (641 modules)
+ ✓ Compiled in 167ms (641 modules)
+ ✓ Compiled in 338ms (653 modules)
+ ⚠ Fast Refresh had to perform a full reload when ./pages/login.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 273ms (653 modules)
+ ⨯ [Error: The default export is not a React Component in page: "/login"]
+ ⨯ [Error: The default export is not a React Component in page: "/login"] {
+  page: '/login'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 731ms (771 modules)
+ ✓ Compiled in 104ms (642 modules)
+ GET /login 500 in 1513ms
+ ✓ Compiled in 163ms (642 modules)
+ ✓ Compiled in 341ms (771 modules)
+ ✓ Compiled in 375ms (771 modules)
+ ✓ Compiled in 201ms (642 modules)
+ ✓ Compiled in 114ms (642 modules)
+ ✓ Compiled in 150ms (642 modules)
+ ✓ Compiled in 158ms (642 modules)
+ ✓ Compiled in 95ms (642 modules)
+ ✓ Compiled in 91ms (642 modules)
+ ✓ Compiled in 124ms (642 modules)
+ ✓ Compiled /favicon.ico in 276ms (200 modules)
+ GET /favicon.ico 200 in 554ms
